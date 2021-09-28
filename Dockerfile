@@ -1,7 +1,7 @@
 FROM python:3.9-slim
 
 #IP Adresse vom Host
-ENV IP_ADRESS=192.168.178.89
+ENV IP_ADRESS = 0
 
 #Socat + PySerial
 RUN apt-get update && apt-get install -y socat && rm -rf /var/lib/apt/lists/*
